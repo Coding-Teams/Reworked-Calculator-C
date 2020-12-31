@@ -3,6 +3,8 @@
 #include "operands.h"
 #include <math.h>
 
+
+
  //Copyright by Fabio-Git-Dev - Software Engineer student UniBa
 
 
@@ -22,16 +24,15 @@
    */
 
 
-
-
-
-
 int main(void) //Main function
 
 {
 
+         system("COLOR 7"); //sets color for each string.
 
-         printf("Calculator by Fabio-Git-Dev \n");
+         printf(" Calculator by Fabio-Git-Dev \n");
+
+
 
 
 
@@ -40,7 +41,7 @@ int main(void) //Main function
    do{
 
 
-    printf("Wich operation you want to do? 1(+) 2(-) 3(x) 4(/) 5 (Power) 6 Exit Progam \n");
+    printf("Wich operation you want to do? 1(+) 2(-) 3(x) 4(/) 5 (Power) 6 (Exit) \n");
 
     scanf("%d", &choice);
 
@@ -48,25 +49,49 @@ int main(void) //Main function
     /*Conditions in case the number doesn't correspond to the number given in the selection
       for each number a condition is needed, that's why need to use else if to express a condition.*/
 
-
-
         if (choice == 7) {
 
+        system("cls");
+
+        system("COLOR 4");
+
         printf("Wrong selection, retry\n");
+
+        system("Pause");
+
+        system("cls");
 
         return main();
 
+        }
 
-       } else if (choice == 8) {
+
+         else if (choice == 8) {
+
+        system("cls");
+
+        system("COLOR 4");
 
         printf("Wrong selection, retry\n");
+
+        system("Pause");
+
+        system("cls");
 
         return main();
 
 
        }  else if (choice == 9) {
 
+        system("cls");
+
+        system("COLOR 4");
+
         printf("Wrong selection, retry\n");
+
+        system("Pause");
+
+        system("cls");
 
         return main();
 
@@ -81,9 +106,10 @@ switch (choice) { //switch case for operand choice.
 
 case 1:
 
-     do{
+     do {
 
          sum();
+
 
           printf("Do you want to continue with this format? 1(Yes) 2(No) \n");
           scanf("%d", &decision);
@@ -110,6 +136,8 @@ case 1:
      do {
 
          sub();
+
+
 
           printf("Do you want to continue with this format? 1(Yes) 2(No) \n");
           scanf("%d", &decision);
@@ -138,7 +166,8 @@ case 1:
     do {
             mult();
 
-             printf("Do you want to continue with this format? 1(Yes) 2(No) \n");
+
+          printf("Do you want to continue with this format? 1(Yes) 2(No) \n");
           scanf("%d", &decision);
 
            system("cls");
@@ -161,6 +190,7 @@ case 1:
      do {
 
           divis();
+
 
            printf("Do you want to continue with this format? 1(Yes) 2(No) \n");
            scanf("%d", &decision);
@@ -209,7 +239,9 @@ case 1:
 
 default:
 
+            system("cls");
 
+            system("COLOR D");
             printf("Exiting program... \n");
             system("pause"); //Value used to exit program.
 

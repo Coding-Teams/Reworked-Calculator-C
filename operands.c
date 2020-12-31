@@ -4,10 +4,13 @@
 #include <math.h>
 
 
+
 //DON'T PUT CONDITION VALUES THAT HAS TO BE READ IN THE MAIN HERE! OR ELSE THE VALUE FOR THE OCNDITION WILL FAIL TO BE VERIFIED.
+
 
 void divis() {
 
+     system("COLOR 7");
 
      float div;
 
@@ -22,7 +25,15 @@ void divis() {
 
          if (n2 == 0) {
 
+                system("cls");
+
+                system("COLOR 4");
+
             printf("You can't divide per 0.\n");
+
+            system("pause");
+
+            system("cls");
 
             return divis();
          }
@@ -155,6 +166,7 @@ void power() {
 
 
 }
+
 
 
 
