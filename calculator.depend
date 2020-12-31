@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1606400537 source:c:\users\administrator\desktop\bin2hex - hex2bin converter\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1609414884 source:e:\strumenti programmazione\progetti in c\calculator in c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"operands.h"
+	<math.h>
+
+1609337264 source:e:\strumenti programmazione\progetti in c\calculator in c\sub.c
+	<stdlib.h>
+	<stdlib.h>
+	"sub.h"
+
+1609337085 e:\strumenti programmazione\progetti in c\calculator in c\sub.h
+
+1609337264 source:e:\strumenti programmazione\progetti in c\calculator in c\sum.c
+	<stdlib.h>
+	<stdlib.h>
+	"sum.h"
+
+1609337085 e:\strumenti programmazione\progetti in c\calculator in c\sum.h
+
+1609337458 source:e:\strumenti programmazione\progetti in c\calculator in c\mult.c
+	<stdlib.h>
+	<stdlib.h>
+	"mult.h"
+
+1609337085 e:\strumenti programmazione\progetti in c\calculator in c\mult.h
+
+1609337435 source:e:\strumenti programmazione\progetti in c\calculator in c\div.c
+	<stdlib.h>
+	<stdlib.h>
+	"div.h"
+
+1609337428 e:\strumenti programmazione\progetti in c\calculator in c\div.h
+
+1609339599 e:\strumenti programmazione\progetti in c\calculator in c\operands.h
+
+1609414840 source:e:\strumenti programmazione\progetti in c\calculator in c\operands.c
+	<stdlib.h>
+	<stdlib.h>
+	"operands.h"
+	<math.h>
+
