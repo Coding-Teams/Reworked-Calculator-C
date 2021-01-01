@@ -33,7 +33,7 @@ int main(void) //Main function
 
          printf("\t\t\t\t\t **********************************\n");
          printf("\t\t\t\t\t*     CALCULATOR BY Fabio-Git-Dev  *\n");
-         printf("\t\t\t\t\t*                V0.3b             *\n");
+         printf("\t\t\t\t\t*                V1.0             *\n");
          printf("\t\t\t\t\t **********************************\n");
          printf("\t\t\t\t\tPress any Key to go to the menu....\n");
 
