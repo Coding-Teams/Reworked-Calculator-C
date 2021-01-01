@@ -4,7 +4,7 @@
 	<stdlib.h>
 	<math.h>
 
-1609448314 source:e:\strumenti programmazione\progetti in c\calculator in c\main.c
+1609511433 source:e:\strumenti programmazione\progetti in c\calculator in c\main.c
 	<stdio.h>
 	<stdlib.h>
 	"operands.h"
@@ -40,11 +40,17 @@
 
 1609424248 e:\strumenti programmazione\progetti in c\calculator in c\operands.h
 
-1609448710 source:e:\strumenti programmazione\progetti in c\calculator in c\operands.c
+1609512532 source:e:\strumenti programmazione\progetti in c\calculator in c\operands.c
 	<stdlib.h>
 	<stdlib.h>
 	"operands.h"
 	<math.h>
 
-1609424294 source:e:\strumenti programmazione\progetti in c\calculator in c\resources.rc
+1609501990 source:e:\strumenti programmazione\progetti in c\calculator in c\resources.rc
+
+1609448723 source:e:\strumenti programmazione\progetti in c\calculator in c\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"operands.h"
+	<math.h>
 

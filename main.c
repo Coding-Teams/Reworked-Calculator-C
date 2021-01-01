@@ -31,10 +31,10 @@ int main(void) //Main function
 
          system("COLOR 4"); //sets color for each string.
 
-         printf("\t\t\t\t\t***********************************\n");
+         printf("\t\t\t\t\t **********************************\n");
          printf("\t\t\t\t\t*     CALCULATOR BY Fabio-Git-Dev  *\n");
          printf("\t\t\t\t\t*                V0.3b             *\n");
-         printf("\t\t\t\t\t***********************************\n");
+         printf("\t\t\t\t\t **********************************\n");
          printf("\t\t\t\t\tPress any Key to go to the menu....\n");
 
          gets(&press);
@@ -54,7 +54,10 @@ int main(void) //Main function
 
 
 
-    printf("\t\t\tWich operation you want to do? 1(+) 2(-) 3(x) 4(/) 5 (Power) 6 (Exit) \n");
+    printf("\t\t\t***Select an operation*** \n");
+
+
+    printf("1(+)\n\n2(-)\n\n3(x)\n\n4(/)\n\n5(Power)\n\n6(Exit)\n\n \n");
 
     scanf("%d", &choice);
 
@@ -62,7 +65,10 @@ int main(void) //Main function
     /*Condition in case the number is higher to the number given in the selection
       for each number a condition is needed, that's why need to use else if to express a condition.*/
 
-        if (choice > 6 || choice == 0) {  //if the choice is major or equal to 0
+        if (choice > 6 || choice == 0)
+
+
+            {  //if the choice is major or equal to 0
 
         system("cls");
 
